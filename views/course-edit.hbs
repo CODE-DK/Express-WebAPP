@@ -20,3 +20,8 @@
     <input type="hidden" name="id" value="{{course.id}}">
     <button class="btn btn-primary">Добавить курс</button>
 </form>
+
+<form action="/courses/remove" method="post">
+    <input type="hidden" name="id" value="{{course.id}}">
+    <button class="btn red">Удалить курс</button>
+</form>

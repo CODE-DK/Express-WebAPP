@@ -27,7 +27,6 @@ const PORT = process.env.PORT || 3000;
 
 //Mongo config
 const mongoose = require('mongoose');
-const {request} = require("express");
 
 async function start() {
     try {
